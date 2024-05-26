@@ -1,11 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
-</html>
+    <? get_header(); ?>
+    <!--  -->
+    <div id="content" class="site-content">
+      <div id="primary" class="content-area">
+        <main id="main" class="site-main">
+          <section class="hero">
+            Hero
+          </section>
+          <section class="services">
+            Services
+          </section>
+          <section class="home-blog">
+            Blog
+          </section>
+        </main>
+      </div>
+    </div>
+    <!--  -->
+    <? get_footer(); ?>
